@@ -1,6 +1,5 @@
 body{
     font-family: 'Roboto', arial, sans-serif;
-    padding: auto 32px;
     margin: 0;
 }
 
@@ -10,20 +9,21 @@ body{
     color: #F9FAF8;
     justify-content: space-between;
     align-items: center;
-    padding: 48px;
+    padding: 24px 96px;
 }
 
 .logo {
-    font-size: 48px;
+    font-size: 24px;
 }
 
 .links-for-header {
     display: flex;
     gap: 16px;
+    font-size: 18px;
 }
 
 .first-block {
-    padding: 48px;
+    padding: 24px 96px;
     display: flex;
     color:#F9FAF8;
     background-color: #1F2937;
@@ -34,17 +34,73 @@ body{
     margin: 0;
 }
 
-
 .lead-text{
     font-size: 48px;
+    margin-bottom: 0;
+}
+
+.lead-subtext{
+    display: flex;
+    flex: wrap;
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-weight: 10;
+}
+
+.sign-up-button{
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    padding:6px 32px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 .lead-image{
     background-color: red;
     display: flex;
-    justify-self: flex-end;
     margin-left: 10;
     height: 100%;
     min-width: 400px;
     flex-basis: 600px;
+    flex-grow: 2;
+}
+
+.second-block{
+    justify-items: center;
+    padding: 24px 96px 96px 96px;
+}
+
+.entries {
+    display: flex;
+    gap: 48px;
+}
+
+.entry {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    width: 150px;
+    text-align: center;
+    gap: 6px;
+}
+.entry-image{
+    display: block;
+    width: 150px;
+    height: 150px;
+}
+
+.third-block {
+    padding: 192px;
+    background-color: #E5E7EB;
+    justify-items: right;
+}
+
+.quote {
+    color:#1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style:italic;
 }
