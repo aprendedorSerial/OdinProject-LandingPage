@@ -48,7 +48,7 @@ body{
     font-weight: 10;
 }
 
-.sign-up-button{
+button{ 
     background-color: #3882F6;
     border-color: #3882F6;
     color: white;
@@ -93,9 +93,12 @@ body{
 }
 
 .third-block {
-    padding: 192px;
+    display: flex;
+    flex-direction: column;
+    padding: 144px 256px;
     background-color: #E5E7EB;
-    justify-items: right;
+    align-content: center;
+    align-items: flex-end;
 }
 
 .quote {
@@ -103,4 +106,43 @@ body{
     font-size: 36px;
     font-weight: 300;
     font-style:italic;
+}
+
+.signature{
+    font-weight: bolder;
+}
+
+.fourth-block{
+    display: flex;
+    justify-content: center;
+    padding: 64px 96px;
+}
+
+.call-to-action{
+    display: flex;
+    border-radius: 10px;
+    padding: 24px 128px;
+    gap: 36px;
+    background-color: #3882F6;
+}
+
+.action-text{
+    color: white;
+}
+
+
+.sign-up-button{
+    border-color: white;
+    border-style: solid;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    font-size: 18px;
+    padding: 36px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
 }
